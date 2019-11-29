@@ -21,6 +21,8 @@
 		<p>
 			<button class = "btn btn-primary" onclick="window.location.href = 'views/user-form.jsp'">Add User</button>
 		</p>
+		
+		
 	
 		<table class = "table table-striped table-bordered">
 			

@@ -29,6 +29,7 @@
 				<th>Surname</th>
 				<th>Age</th>
 				<th>Email</th>
+				<th>Actions</th>
 			</tr>
 			
 			<c:forEach items="${list}" var="user">
@@ -37,6 +38,7 @@
 					<td>${user.name}</td>
 					<td>${user.surname}</td>
 					<td>${user.age}</td>
+					<td>${user.email}</td>
 					<td> 
 						<a href = "${pageContext.request.contextPath}/UserController?action=EDIT&id=${user.id}">Edit</a> 
 						| 

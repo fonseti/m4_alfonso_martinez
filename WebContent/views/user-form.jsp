@@ -28,7 +28,7 @@
 				
 				
 					<div class="form-group">
-					  	<input type = "text" class = "form-control" name = "age" placeholder = "Enter Age" value = "${user.age}"/>
+					  	<input type = "number" class = "form-control" name = "age" placeholder = "Enter Age" value = "${user.age}"/>
 					</div>
 					
 					<div class="form-group">
@@ -36,7 +36,7 @@
 					</div>
 					
 					<div class="form-group">
-					  	<input type = "text" class = "form-control" name = "password" placeholder = "Enter Password" value = "${user.password}"/>
+					  	<input type = "password" class = "form-control" name = "password" placeholder = "Enter Password" value = "${user.password}"/>
 					</div>
 				
 					<input type = "hidden" name = "id" value = "${user.id}"/>

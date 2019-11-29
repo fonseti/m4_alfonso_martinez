@@ -102,6 +102,7 @@ public class UserController extends HttpServlet {
 		user.setSurname(request.getParameter("surname"));
 		user.setEmail(request.getParameter("email"));
 		user.setAge(request.getParameter("age"));
+		user.setPassword(request.getParameter("password"));
 		
 		if(id.isEmpty() || id == null) {
 			// crea un usuario
