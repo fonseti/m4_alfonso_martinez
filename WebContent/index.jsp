@@ -1,0 +1,1 @@
+<% response.sendRedirect("LoginController?action=LOGIN"); %>
